@@ -4,6 +4,7 @@ import Footer from './components/footer/Footer';
 import Header from './components/header/Header';
 import Home from './components/home/Home';
 import Experiencia from "./components/experiencia/Experiencia";
+import MapaSetores from "./components/mapaSetores/MapaSetores";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Header/>
         <Routes>
           <Route path="experiencia" element={<Experiencia/>}/>
+          <Route path="setores" element={<MapaSetores/>}/>
         </Routes>
         <Home/>
         <Footer/>

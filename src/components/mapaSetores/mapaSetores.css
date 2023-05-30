@@ -1,0 +1,66 @@
+.amostra-setores{
+    display: flex;
+    flex-direction: row;
+    padding-top: 15px;
+}
+.local-setores{
+    width: 690px;
+    height: 609px;
+    margin-left: 120px;
+}
+.nome-setores{
+    display: flex;
+    flex-direction: column;
+}
+.legenda-setores{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size:32px;
+    line-height: 37.57px;
+    text-align:center;
+    margin-left: -90px;
+    color: white;
+}
+.cor-setor{
+    display: flex;
+    flex-direction: row;
+    margin-top: -15px;
+}
+.box-set{
+    width: 32px;
+    height: 32px;
+    background-color: #0E7DF1;
+}
+.setor{
+    margin-left: 15px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 40px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+   
+}
+.box-set2{
+    width: 32px;
+    height: 32px;
+    background-color: #FE016E;
+    
+}
+.box-set3{
+    width: 32px;
+    height: 32px;
+    background-color: #01A89E;
+    
+}
+.box-set4{
+    width: 32px;
+    height: 32px;
+    background-color:#3F51B5;
+    
+}
+.box-set5{
+    width: 32px;
+    height: 32px;
+    background-color:  #0E7DF1;
+    
+}

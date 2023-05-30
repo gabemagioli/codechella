@@ -14,7 +14,7 @@ const Header = () => {
             <img src={logoCodechella} alt="codechella logo" className="logo"/>
             <nav className="nav">
                 <Link to="/experiencia" className="navegacao">A experiencia</Link>
-                <h2 className="navegacao">Mapa de Setores</h2>
+                <Link to="/setores" className="navegacao">Mapa de Setores</Link>
                 <h2 className="navegacao">Informacoes</h2>
                 <h2 className="navegacao">Ingresso</h2>
             </nav>
