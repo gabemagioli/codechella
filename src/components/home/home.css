@@ -1,0 +1,57 @@
+main{
+    background: linear-gradient(#304968, #36C1A0, #4650BD);
+    width: 1440px;
+    padding-bottom:40px;
+}
+.intro{
+    padding-top:65px;
+    display:flex;
+    flex-direction: row;
+}
+.img{
+    margin-left: 121.5px;
+}
+.nos{
+    margin-left:50px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sobre-festival{
+    font-family: 'Raleway', sans-serif;
+    margin-top: 40px;
+    color: white;
+    line-height:40px;
+    font-size:20px;
+    font-weight: 500;
+    width:65%;
+}
+.botao{
+    background-color:#4650BD;
+    width:256px;
+    height: 56px;
+    color:white;
+    border-radius:16px;
+    padding: 8px, 16px, 8px, 16px;
+    box-shadow: 4px 4px 0px #444444;
+    font-size: 20px;
+    font-weight: 700px;
+    line-height: 40px;
+    border:none;
+}
+.botao:hover{
+    transform: scale(1.009);
+    background-color: #333dac;
+    color:rgb(181, 181, 181);
+    opacity:0.8;
+    transition: 0.5s;
+}
+.lineupTitle{
+    font-family: 'Calistoga', cursive;
+    color: white;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 83.2px;
+    text-align: center;
+    margin-top: 80px;
+}
