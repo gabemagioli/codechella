@@ -38,6 +38,7 @@ main{
     font-weight: 700px;
     line-height: 40px;
     border:none;
+    cursor: pointer;
 }
 .botao:hover{
     transform: scale(1.009);
@@ -54,4 +55,72 @@ main{
     line-height: 83.2px;
     text-align: center;
     margin-top: 80px;
+}
+.sab{
+    font-family: 'Calistoga', cursive;
+    font-weight: 400px;
+    font-size: 48px;
+    line-height: 62.4px;
+    width: 30%;
+    margin-left: 490.5px;
+    border: none;
+    background-color: #008364;
+    padding: 16px;
+    align-items:center;
+    color: white;   
+}
+.lineupSab{
+    margin-top: 60px;
+    padding-top: -60px;
+    border: 0.5px solid #008364;
+}
+.h2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800px;
+    font-size: 48px;
+    line-height: 56.35px;
+    text-align: center;
+    color: white;
+}
+.secundario{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: -55px;
+    margin-right: -70px
+}
+.h5{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    weight: 700px;
+    font-size: 40px;
+    line-height: 46.96px;
+    width: 351px;
+    margin-left: 15px;
+}
+.terceiro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: -90px;
+}
+.h6{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    weight: 700px;
+    font-size: 32px;
+    line-height: 37.57px;
+}
+.quarto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: -70px;
+}
+.h4{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    weight: 500px;
+    font-size: 32px;
+    line-height: 37.57px;
 }

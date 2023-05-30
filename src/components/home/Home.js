@@ -27,8 +27,30 @@ const Home = () => {
                     <button className="botao">Comprar ingresso! <IoTicketOutline/></button>
                 </div>
             </div>
-            <div>
+            <div className="lineupSab">
                 <h1 className="lineupTitle">/Line-Up/</h1>
+                <h3 className="sab">SABADO -11/03-</h3>
+                <div className="artistas">
+                    <h2 className="h2">System of a DOM</h2>
+                    <div className="secundario">
+                        <h5 className="h5">Python Maden</h5>
+                        <h5 className="h5">Apollo Client 2001 </h5>
+                        <h5 className="h5"> Bon Java</h5>
+                        <h5 className="h5">NickCallBack</h5>
+                    </div>
+                    <div className="terceiro">
+                        <h6 className="h6">Linking Promises</h6>
+                        <h6 className="h6">FullStack fighters</h6>
+                        <h6 className="h6">Papa React</h6>
+                        <h6 className="h6">Angular in Chains</h6>
+                    </div>
+                    <div className="quarto">
+                        <h4 className="h4">Adnostik Front-end</h4>
+                        <h4 className="h4">SlipkNode</h4>
+                        <h4 className="h4">Pink Flutter</h4>
+                        <h4 className="h4">Kiss</h4>
+                    </div>
+                </div>
             </div>
 
 
