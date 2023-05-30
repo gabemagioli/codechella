@@ -1,7 +1,6 @@
 main{
     background: linear-gradient(#304968, #36C1A0, #4650BD);
     width: 1440px;
-    padding-bottom:40px;
 }
 .intro{
     padding-top:65px;
@@ -123,4 +122,17 @@ main{
     weight: 500px;
     font-size: 32px;
     line-height: 37.57px;
+}
+.dom{
+    font-family: 'Calistoga', cursive;
+    font-weight: 400px;
+    font-size: 48px;
+    line-height: 62.4px;
+    width: 35%;
+    margin-left: 460.5px;
+    border: none;
+    background-color: #008364;
+    padding: 16px;
+    align-items:center;
+    color: white; 
 }
