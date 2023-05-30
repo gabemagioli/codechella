@@ -1,4 +1,5 @@
 import logoCodechella from "./logoCodechella.png";
+import { Link } from "react-router-dom";
 import "./header.css";
 const Header = () => {
     <>
@@ -8,15 +9,17 @@ const Header = () => {
     </>
 
     return(
+        <>
         <header className="header">
             <img src={logoCodechella} alt="codechella logo" className="logo"/>
             <nav className="nav">
-                <h2 className="navegacao">A experiencia</h2>
+                <Link to="/experiencia" className="navegacao">A experiencia</Link>
                 <h2 className="navegacao">Mapa de Setores</h2>
                 <h2 className="navegacao">Informacoes</h2>
                 <h2 className="navegacao">Ingresso</h2>
             </nav>
         </header>
+        </>
     );
 }
 

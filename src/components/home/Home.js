@@ -3,6 +3,7 @@ import bandaTopo from "./bandaTopo.png"
 import data from "./data.png";
 import { IoTicketOutline } from "react-icons/io5";
 import imagem from "./Imagem.png";
+import Vindas from "../boasvindas/Vindas";
 <style>
         @import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
 </style>
@@ -17,6 +18,8 @@ const Home = () => {
     </>
 
     return(
+        <>
+        <Vindas/>
         <main>
             <div className="intro">
                 <img src={bandaTopo} alt="banda de musica" className="img"/>
@@ -79,6 +82,7 @@ const Home = () => {
             </div>
             <img src={imagem} alt="guitarra" className="img-fim"/>
         </main>
+        </>
     );
 }
 

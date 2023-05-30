@@ -33,6 +33,7 @@
     text-align:center;
     color:white;
     cursor:pointer;
+    text-decoration: none;
 }
 .navegacao:hover{
     border-bottom: 1px solid aqua;
