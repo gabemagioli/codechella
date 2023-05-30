@@ -1,0 +1,39 @@
+.header{
+    background-color: #4650BD;
+    display:flex;
+    flex-direction: row;
+    display:flex;
+    justify-content: space-between;
+    padding:32px;
+    width:1376px;
+}
+.logo{
+    height:64px;
+    width: 233.9px;
+    margin-left: 120px;
+    margin-top:32px;
+    margin-bottom:32px;
+}
+.nav{
+    display: flex;
+    flex-direction:row;
+    margin-top:32px;
+    margin-bottom:30px;
+    margin-left:280px;
+    margin-right: 120px;
+    align-items:center
+}
+.navegacao{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height:40px;
+    margin-left:20px;
+    margin-right:12px;
+    text-align:center;
+    color:white;
+    cursor:pointer;
+}
+.navegacao:hover{
+    border-bottom: 1px solid aqua;
+}
