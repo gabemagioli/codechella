@@ -5,12 +5,13 @@
 .intro-experiencia{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     padding-top: 65px;
+    padding-bottom: 65px;
 }
 .itens{
     display: flex;
     flex-direction: row;
-    margin-bottom: 120px;
 }
 .foto-experiencia{
     margin-left: 121.5px;
