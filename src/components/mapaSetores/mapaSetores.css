@@ -1,3 +1,6 @@
+.main-setores{
+    margin-bottom:-70px;
+}
 .amostra-setores{
     display: flex;
     flex-direction: row;
@@ -55,12 +58,19 @@
 .box-set4{
     width: 32px;
     height: 32px;
-    background-color:#3F51B5;
-    
+    background-color:#3F51B5;   
 }
 .box-set5{
     width: 32px;
     height: 32px;
     background-color:  #0E7DF1;
-    
+}
+.detalhes-setores{}
+.titulo-detalhes{
+    font-family: 'Raleway', sans-serif;
+    font-weight:700;
+    font-size:40px;
+    line-height:46.96px;
+    text-align: center;
+    color: white;
 }

@@ -13,6 +13,7 @@ const Header = () => {
         <header className="header">
             <img src={logoCodechella} alt="codechella logo" className="logo"/>
             <nav className="nav">
+                <Link to="/home" className="navegacao">Inicio</Link>
                 <Link to="/experiencia" className="navegacao">A experiencia</Link>
                 <Link to="/setores" className="navegacao">Mapa de Setores</Link>
                 <h2 className="navegacao">Informacoes</h2>

@@ -11,7 +11,7 @@ const MapaSetores = () => {
     </>
 
     return(
-        <main clasName="main-setores">
+        <main className="main-setores">
             <img src={bannerSetores} alt="setores" className="setores-img"/>
             <section>
                 <div className="amostra-setores">
@@ -24,6 +24,9 @@ const MapaSetores = () => {
                         <div className="cor-setor"><p className="box-set4"></p><p className="setor">Cadeiras Superiores</p></div>
                         <div className="cor-setor"><p className="box-set5"></p><p className="setor">Rampas</p></div>
                     </div>
+                </div>
+                <div className="detalhes-setores">
+                    <h5 className="titulo-detalhes">Mais detalhes sobre os setores:</h5>
                 </div>
             </section>
         </main>
