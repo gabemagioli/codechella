@@ -1,0 +1,79 @@
+.titulo-form{
+    font-family: 'Calistoga', cursive;
+    line-height:  62.4px;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 400;
+    color: white;
+}
+.form-ingresso{
+    display: flex;
+    flex-direction: column;
+}
+.label{
+    margin-bottom: 8px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+    line-height: 37.57px;
+    font-weight: 700;
+    color: white;
+    margin-left: 322.5px;
+    margin-top: 30px;
+}
+.label2{
+    margin-bottom: 8px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+    line-height: 37.57px;
+    font-weight: 700;
+    color: white;
+    margin-left: 322.5px;
+    margin-top: 30px;
+    margin-right: 394px;
+    margin-left: 160px;
+}
+.input{
+    width: 55%;
+    margin-left: 322.5px;
+    padding: 15px;
+}
+.form-pt2{
+    display: flex;
+    flex-direction: row;
+}
+.sub-input{
+    width: 28%;
+    height: 45px;
+    margin-left: 320px;
+}
+.sub-input2{
+    width: 28%;
+    height: 41px;
+    margin-left: 20px;
+}
+.botao-ingresso{
+    background-color:#4650BD;
+    width:256px;
+    height: 56px;
+    color:white;
+    border-radius:16px;
+    padding: 8px, 16px, 8px, 16px;
+    box-shadow: 4px 4px 0px #444444;
+    font-size: 20px;
+    font-weight: 700px;
+    line-height: 40px;
+    border:none;
+    cursor: pointer;
+    margin-left: 600px;
+    margin-top: 30px;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 10px;
+}
+.botao-ingresso:hover{
+    transform: scale(1.009);
+    background-color: #333dac;
+    color:rgb(181, 181, 181);
+    opacity:0.8;
+    transition: 0.5s;
+}

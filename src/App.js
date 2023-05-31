@@ -6,6 +6,8 @@ import Home from './components/home/Home';
 import Experiencia from "./components/experiencia/Experiencia";
 import MapaSetores from "./components/mapaSetores/MapaSetores";
 import Informacoes from "./components/informacoes/Informacoes";
+import Ingresso from "./components/ingresso/Ingresso";
+import QrCode from "./components/qrcodeIngresso/Qrcode";
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
           <Route path="experiencia" element={<Experiencia/>}/>
           <Route path="setores" element={<MapaSetores/>}/>
           <Route path="informacoes" element={<Informacoes/>}/>
+          <Route path="ingresso" element={<Ingresso/>}/>
+          <Route path="qrcode" element={<QrCode/>}/>
         </Routes>
         <Footer/>
       </div>

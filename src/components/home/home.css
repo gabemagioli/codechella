@@ -38,6 +38,8 @@ main{
     line-height: 40px;
     border:none;
     cursor: pointer;
+    text-decoration: none;
+    text-align: center;
 }
 .botao:hover{
     transform: scale(1.009);

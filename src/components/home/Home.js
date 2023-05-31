@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./home.css";
 import bandaTopo from "./bandaTopo.png"
 import data from "./data.png";
@@ -28,7 +29,7 @@ const Home = () => {
                     <p className="sobre-festival">Hora de programar nossa memoria com novas 
                     lembrancas! Uma nova experiencia sobre musica, linguagens e, claro, tecnologia! Somos um festival diverso, com varios artistas e referencias, Divirta-se!
                     </p>
-                    <button className="botao">Comprar ingresso! <IoTicketOutline/></button>
+                    <Link to="/ingresso" className="botao">Comprar ingresso! <IoTicketOutline/></Link>
                 </div>
             </div>
             <div className="lineupSab">
