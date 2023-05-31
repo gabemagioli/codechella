@@ -14,7 +14,7 @@ const Informacoes = () => {
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet"/>
     </>
     const [seta, setSeta] = useState(<BsCaretUpFill/>);
-    const [mostrarPergunta, setMostrarPergunta] = useState(true);
+    const [mostrarPergunta, setMostrarPergunta] = useState(false);
 
     const aparecer = () => {
         setMostrarPergunta(!mostrarPergunta);

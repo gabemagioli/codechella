@@ -4,7 +4,7 @@ import Logo from "./Logo.png";
 import Ellipse from "./Ellipse.png";
 import "./qrcode.css";
 
-const QrCode = ({nome, setNome}) => {
+const QrCode = ({nome}) => {
     <>
     <link rel="preconnect" href="https://fonts.googleapis.com"/>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
@@ -24,8 +24,14 @@ const QrCode = ({nome, setNome}) => {
                         </div>
                         <div className="infos-bilhete">
                             <img src={Qrcode} alt="qr code do seu ingresso" className="code"/>
-                            <div className="nome">
+                            <div className="nome-div">
                                 <h6 className="nome">{nome}</h6>
+                                <div className="adicional-div">
+                                    <p className="adicional">Ingresso cortesia</p>
+                                    <p className="adicional">Setor Pista</p>
+                                    <p className="adicional">Data: 11/03</p>
+                                    <p className="adicional">Local: Sao Paulo-SP</p>
+                                </div>
                             </div>
                         </div>
                     </div>

@@ -15,6 +15,7 @@
     width: 792px;
     height: 350px;
     margin-left: 300px;
+    box-shadow: 4px 4px 8px 0 #00000026;
 }
 .top{
     display: flex;
@@ -39,6 +40,12 @@
     display: flex;
     flex-direction: row;
 }
+.nome-div{
+    margin-top:-35px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
 .nome{
     font-size: 32px;
     line-height: 37.57px;
@@ -48,4 +55,14 @@
     color: white;
     width: 202px;
     height: 38px;
+}
+.adicional-div{
+    margin-top:-75px;
+    margin-left: 29px;
+}
+.adicional{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
 }
