@@ -1,0 +1,47 @@
+.informacoes-gerais{
+    display: flex;
+    flex-direction: column;
+}
+.titulo-faq{
+    font-family: 'Calistoga', cursive;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 62.4px;
+    color: white;
+    text-align:center;
+    margin-bottom: 115px;
+}
+.perguntas{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37.57px;
+    text-align: center;
+    border: none;
+    padding:10px;
+    padding-left:15px;
+    padding-right: 15px;
+    background-color: #4650BD;
+    width: 70%;
+    margin-left: 12%;
+    margin-top: -65px;
+    color: white;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.respostas{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 40px;
+    color: #444444;
+    width: 69.2%;
+    text-align: center;
+    margin-left: 12%;
+    background-color: #C8DEEF;
+    margin-top: -73px;
+    padding: 20px;
+    margin-bottom: 85px;
+}

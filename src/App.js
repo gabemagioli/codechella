@@ -5,6 +5,7 @@ import Header from './components/header/Header';
 import Home from './components/home/Home';
 import Experiencia from "./components/experiencia/Experiencia";
 import MapaSetores from "./components/mapaSetores/MapaSetores";
+import Informacoes from "./components/informacoes/Informacoes";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="home" element={<Home/>}/>
           <Route path="experiencia" element={<Experiencia/>}/>
           <Route path="setores" element={<MapaSetores/>}/>
+          <Route path="informacoes" element={<Informacoes/>}/>
         </Routes>
         <Footer/>
       </div>
