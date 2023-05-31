@@ -2,6 +2,50 @@
     font-size: 32px;
     line-height: 37.57px;
     font-weight: 700;
-    text-align: center;
+    margin-left: 324px;
     font-family: 'Raleway', sans-serif;
+    color: white;
+    width: 792px;
+    height: 76px;
 } 
+.bilhete{
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    width: 792px;
+    height: 350px;
+    margin-left: 300px;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.top-logo2{
+    margin-top: 25px;
+    margin-right: 25px;
+}
+.top-logo{
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.code{
+    width: 189px;
+    height: 222px;
+    margin-top: 45px;
+    margin-left: 25px;
+}
+.infos-bilhete{
+    display: flex;
+    flex-direction: row;
+}
+.nome{
+    font-size: 32px;
+    line-height: 37.57px;
+    font-weight: 700;
+    margin-left: 29px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    width: 202px;
+    height: 38px;
+}

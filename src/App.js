@@ -8,8 +8,12 @@ import MapaSetores from "./components/mapaSetores/MapaSetores";
 import Informacoes from "./components/informacoes/Informacoes";
 import Ingresso from "./components/ingresso/Ingresso";
 import QrCode from "./components/qrcodeIngresso/Qrcode";
+import { useState } from "react";
 
 function App() {
+
+  const [nome, setNome] = useState("");
+
   return (
     <BrowserRouter>
       <div className="App">
@@ -19,8 +23,8 @@ function App() {
           <Route path="experiencia" element={<Experiencia/>}/>
           <Route path="setores" element={<MapaSetores/>}/>
           <Route path="informacoes" element={<Informacoes/>}/>
-          <Route path="ingresso" element={<Ingresso/>}/>
-          <Route path="qrcode" element={<QrCode/>}/>
+          <Route path="ingresso" element={<Ingresso nome={nome} setNome={setNome}/>}/>
+          <Route path="qrcode" element={<QrCode nome={nome} setNome={setNome}/>}/>
         </Routes>
         <Footer/>
       </div>

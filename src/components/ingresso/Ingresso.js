@@ -6,12 +6,16 @@ import { BsFillArrowRightCircleFill } from "react-icons/bs";
         @import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
 </style>
 
-const Ingresso = () => {
+const Ingresso = ({nome, setNome}) => {
     <>
     <link rel="preconnect" href="https://fonts.googleapis.com"/>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet"/>
     </>
+
+    const nomeIngresso = (e) => {
+        setNome(e.target.value);
+    }
 
     return(
         <main>
@@ -23,7 +27,7 @@ const Ingresso = () => {
                     <h3 className="titulo-form">Preencha o formulário a seguir:</h3>
                     <form className="form-ingresso">
                         <label className="label">Nome Completo:</label>
-                        <input type="text" placeholder="digite seu nome" className="input" required/>
+                        <input type="text" placeholder="digite seu nome" className="input" onChange={nomeIngresso} value={nome} required/>
                         <label className="label">Email:</label>
                         <input type="email" placeholder="digite seu nome" className="input" required/>
                         <div className="form-pt2">
